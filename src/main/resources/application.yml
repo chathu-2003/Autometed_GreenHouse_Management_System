@@ -1,0 +1,28 @@
+server:
+  port: 8090   # Gateway run ??? port
+
+spring:
+  application:
+    name: api-gateway
+
+  cloud:
+    gateway:
+      routes:
+        # Config Server route
+        - id: config-server
+          uri: http://localhost:8888
+          predicates:
+            - Path=/config-server/**
+
+        # Eureka-registered service route
+        - id: greenhouse-service
+          uri: lb://GREENHOUSE-SERVICE
+          predicates:
+            - Path=/service/**
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
