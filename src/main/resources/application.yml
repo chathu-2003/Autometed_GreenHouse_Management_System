@@ -1,4 +1,5 @@
 server:
+<<<<<<< HEAD
   port: 8888
 
 spring:
@@ -11,3 +12,15 @@ spring:
         git:
           uri: https://github.com/chathu-2003/Autometed_GreenHouse_Management_System
           default-label: main
+=======
+  port: 8761
+
+spring:
+  application:
+    name: eureka-server
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+>>>>>>> 496e4d6e294a3331dd507ab85ce3daed40fa75c0
