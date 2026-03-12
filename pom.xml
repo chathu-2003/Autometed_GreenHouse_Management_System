@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -26,6 +27,41 @@
 
 	<dependencies>
 		<!-- Spring Boot Starter Web -->
+=======
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+=======
+<<<<<<< HEAD
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>lk.ijse.gdse72</groupId>
+	<artifactId>zone-service</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>zone-service</name>
+	<description>Zone Service for Greenhouse Management</description>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.3.1</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+
+	<properties>
+		<java.version>17</java.version>
+		<spring-cloud.version>2023.0.4</spring-cloud.version>
+	</properties>
+
+	<dependencies>
+		<!-- Web Starter -->
+>>>>>>> d141ce801a3a21d50645d7b647a5001c76e87031
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -37,6 +73,7 @@
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
+<<<<<<< HEAD
 		<!-- Spring Data JPA -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -44,20 +81,138 @@
 		</dependency>
 
 		<!-- H2 Database (for testing) -->
+=======
+		<!-- Optional: DevTools -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+		<!-- Optional: Test -->
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a9e6f14f74fc46a70cd586c5d324e87200bddc08
+>>>>>>> 3b3c73743e23f5161373c146a6d8d70c6af8d4f4
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.5.11</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>lk.ijse.gdse72</groupId>
+<<<<<<< HEAD
+	<artifactId>sensor_telemetry_service</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Sensor_Telemetry_Service</name>
+	<description>Sensor_Telemetry_Service</description>
+=======
+<<<<<<< HEAD
+	<artifactId>gateway</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Gateway</name>
+	<description>Gateway</description>
+=======
+	<artifactId>config_server</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Config_Server</name>
+	<description>Config_Server</description>
+>>>>>>> a9e6f14f74fc46a70cd586c5d324e87200bddc08
+>>>>>>> 3b3c73743e23f5161373c146a6d8d70c6af8d4f4
+	<url/>
+	<licenses>
+		<license/>
+	</licenses>
+	<developers>
+		<developer/>
+	</developers>
+	<scm>
+		<connection/>
+		<developerConnection/>
+		<tag/>
+		<url/>
+	</scm>
+	<properties>
+		<java.version>17</java.version>
+		<spring-cloud.version>2025.0.1</spring-cloud.version>
+	</properties>
+	<dependencies>
+		<dependency>
+<<<<<<< HEAD
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+=======
+<<<<<<< HEAD
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-gateway-server-webmvc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+=======
+>>>>>>> 3b3c73743e23f5161373c146a6d8d70c6af8d4f4
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+<<<<<<< HEAD
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+>>>>>>> d141ce801a3a21d50645d7b647a5001c76e87031
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+<<<<<<< HEAD
 
 		<!-- Spring Boot Test -->
+=======
+=======
+			<artifactId>spring-cloud-config-server</artifactId>
+>>>>>>> a9e6f14f74fc46a70cd586c5d324e87200bddc08
+		</dependency>
+
+>>>>>>> e72185d86817a617a7f4c9a61e55141f27322c76
+>>>>>>> 3b3c73743e23f5161373c146a6d8d70c6af8d4f4
+>>>>>>> d141ce801a3a21d50645d7b647a5001c76e87031
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> e72185d86817a617a7f4c9a61e55141f27322c76
+>>>>>>> 3b3c73743e23f5161373c146a6d8d70c6af8d4f4
+>>>>>>> d141ce801a3a21d50645d7b647a5001c76e87031
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -67,16 +222,143 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> e72185d86817a617a7f4c9a61e55141f27322c76
+>>>>>>> 3b3c73743e23f5161373c146a6d8d70c6af8d4f4
+>>>>>>> d141ce801a3a21d50645d7b647a5001c76e87031
 		</dependencies>
 	</dependencyManagement>
 
 	<build>
 		<plugins>
 			<plugin>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<annotationProcessorPaths>
+						<path>
+							<groupId>org.projectlombok</groupId>
+							<artifactId>lombok</artifactId>
+						</path>
+					</annotationProcessorPaths>
+				</configuration>
+			</plugin>
+			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<excludes>
+						<exclude>
+							<groupId>org.projectlombok</groupId>
+							<artifactId>lombok</artifactId>
+						</exclude>
+					</excludes>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
 
 </project>
+=======
+>>>>>>> d141ce801a3a21d50645d7b647a5001c76e87031
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+<<<<<<< HEAD
+
+</project>
+=======
+<<<<<<< HEAD
+</project>
+=======
+<<<<<<< HEAD
+=======
+=======
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.5.11</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>lk.ijse.gdse72</groupId>
+    <artifactId>Eureka_Server</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>Eureka_Server</name>
+    <description>Eureka_Server</description>
+    <url/>
+    <licenses>
+        <license/>
+    </licenses>
+    <developers>
+        <developer/>
+    </developers>
+    <scm>
+        <connection/>
+        <developerConnection/>
+        <tag/>
+        <url/>
+    </scm>
+    <properties>
+        <java.version>17</java.version>
+        <spring-cloud.version>2025.0.1</spring-cloud.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+>>>>>>> 496e4d6e294a3331dd507ab85ce3daed40fa75c0
+>>>>>>> a9e6f14f74fc46a70cd586c5d324e87200bddc08
+
+</project>
+>>>>>>> e72185d86817a617a7f4c9a61e55141f27322c76
+>>>>>>> 3b3c73743e23f5161373c146a6d8d70c6af8d4f4
+>>>>>>> d141ce801a3a21d50645d7b647a5001c76e87031
