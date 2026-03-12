@@ -1,4 +1,5 @@
 server:
+<<<<<<< HEAD
   port: 8085
 
 spring:
@@ -7,6 +8,16 @@ spring:
 
   datasource:
     url: jdbc:h2:mem:cropdb
+=======
+  port: 8084
+
+spring:
+  application:
+    name: AUTOMATION-SERVICE
+
+  datasource:
+    url: jdbc:h2:mem:automationdb
+>>>>>>> 86c6f785c27875b4f133e28a84d3e6a730e84c1f
     driver-class-name: org.h2.Driver
     username: sa
     password:
