@@ -1,16 +1,27 @@
 server:
 <<<<<<< HEAD
+  port: 8083
+
+spring:
+  application:
+    name: SENSOR-TELEMETRY-SERVICE
+=======
+<<<<<<< HEAD
   port: 8082  # Zone Service runs on 8082
 
 spring:
   application:
     name: ZONE-SERVICE  # Eureka name (uppercase)
+>>>>>>> 3b3c73743e23f5161373c146a6d8d70c6af8d4f4
 
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
     register-with-eureka: true
+<<<<<<< HEAD
+    fetch-registry: true
+=======
     fetch-registry: true
 =======
 <<<<<<< HEAD
@@ -69,3 +80,4 @@ eureka:
 >>>>>>> 496e4d6e294a3331dd507ab85ce3daed40fa75c0
 >>>>>>> a9e6f14f74fc46a70cd586c5d324e87200bddc08
 >>>>>>> e72185d86817a617a7f4c9a61e55141f27322c76
+>>>>>>> 3b3c73743e23f5161373c146a6d8d70c6af8d4f4
